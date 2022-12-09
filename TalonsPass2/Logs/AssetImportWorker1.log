@@ -15,7 +15,7 @@ C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55929
+52243
 Successfully changed project path to: C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
 C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004440 seconds.
+Registered in 0.003655 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.567 seconds
+- Completed reload, in  0.562 seconds
 Domain Reload Profiling:
-	ReloadAssembly (567ms)
+	ReloadAssembly (562ms)
 		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009244 seconds.
+Registered in 0.007808 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
+- Completed reload, in  0.910 seconds
 Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (755ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (348ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3956.
 Memory consumption went from 122.2 MB to 122.1 MB.
-Total: 3.054100 ms (FindLiveObjects: 0.381900 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.471500 ms  DeleteObjects: 0.105800 ms)
+Total: 2.772600 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.322500 ms  DeleteObjects: 0.089300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,787 +159,543 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2829.541768 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_ShrubGrass_01.prefab
-  artifactKey: Guid(65b84d74a62057c4093c5566e0c0f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_ShrubGrass_01.prefab using Guid(65b84d74a62057c4093c5566e0c0f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501b7feb5bddccfbbe3dcb4ac33d1bf0') in 0.160140 seconds 
+  Time since last request: 18915.291741 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_04.prefab
+  artifactKey: Guid(5810d5798a340174a9a2da12a0ae477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_04.prefab using Guid(5810d5798a340174a9a2da12a0ae477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f20d1b694fded9b916f693b39c717e') in 0.123917 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeStump_01.prefab
-  artifactKey: Guid(16d8c21f3f70834418acab8ffa12e407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeStump_01.prefab using Guid(16d8c21f3f70834418acab8ffa12e407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f4e4bc87406a2878cb9f2cb3ecbaa7') in 0.020869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeDead_Fallen_01.prefab
-  artifactKey: Guid(3d58394a6f2c15a4f926d0c7cf0a1164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeDead_Fallen_01.prefab using Guid(3d58394a6f2c15a4f926d0c7cf0a1164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867db8e705fdaeb170846775e8493515') in 0.017969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_04.prefab
-  artifactKey: Guid(eeaec581c9b4b0b4dbc37ec8232a81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_04.prefab using Guid(eeaec581c9b4b0b4dbc37ec8232a81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c67edbab6f0e5845968f4c32d198fb') in 0.015728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_02.prefab
-  artifactKey: Guid(fe31fcea5460d6449a9cef0d6b859234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_02.prefab using Guid(fe31fcea5460d6449a9cef0d6b859234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01c64fc05cb83e8f26a9c4327a548cd') in 0.015227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Clump_01.prefab
-  artifactKey: Guid(c96b7b2438403f740906346daaaffa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Clump_01.prefab using Guid(c96b7b2438403f740906346daaaffa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6da2d2449c60a288dd06f1c35a7a3b') in 0.014674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Desert_02.prefab
-  artifactKey: Guid(486c4171b7f88ce46b8f085736eec23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Desert_02.prefab using Guid(486c4171b7f88ce46b8f085736eec23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8caec1c903b54f4338d4f5190179fc') in 0.014636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_Dead_01.prefab
-  artifactKey: Guid(483dd26cff21b6e4dbbf6591d6cc91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_Dead_01.prefab using Guid(483dd26cff21b6e4dbbf6591d6cc91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be7e664fb7e09b59907c81a070f8b1d') in 0.015133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_01.prefab
-  artifactKey: Guid(46175349ba374014a86463721899bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_01.prefab using Guid(46175349ba374014a86463721899bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81228036f675b771c0196133567819bc') in 0.014298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1084.511052 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_GoldMiner_Male_01.prefab
-  artifactKey: Guid(46a285bd16879d240b8c67eb1509a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_GoldMiner_Male_01.prefab using Guid(46a285bd16879d240b8c67eb1509a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3fa422a98819510644c40d8b6eff01') in 0.074185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_GoldMiner_Male_02.prefab
-  artifactKey: Guid(581e9cf508f7e474cae28210cd8575d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_GoldMiner_Male_02.prefab using Guid(581e9cf508f7e474cae28210cd8575d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20be5d94f6f82a7e3ea87cc27c1d96f9') in 0.060651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Rocks_01_Convex 1.asset
-  artifactKey: Guid(42d46031f4056fd4eacbcd87cdf79962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Rocks_01_Convex 1.asset using Guid(42d46031f4056fd4eacbcd87cdf79962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4146a49acf3f3f05e5c973243eb1b38b') in 0.036450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Travel_01_Convex.asset
-  artifactKey: Guid(bd30322ef5f96f2458e0f1571f1702fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Travel_01_Convex.asset using Guid(bd30322ef5f96f2458e0f1571f1702fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc825ee948e7c03d140daafff188e33b') in 0.010249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_01_Convex 1.asset
-  artifactKey: Guid(6d98660528e3b16499ee3e1a4a74f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_01_Convex 1.asset using Guid(6d98660528e3b16499ee3e1a4a74f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491733df2b43cd140edd139505fe312c') in 0.015326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Jail_01_Convex.asset
-  artifactKey: Guid(5c7f9c202ea3d914899063d0218dc395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Jail_01_Convex.asset using Guid(5c7f9c202ea3d914899063d0218dc395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4c9c0602009aa5ee90e2d6bf5b88a9') in 0.010314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_04_Convex.asset
-  artifactKey: Guid(55c0b2a7c30ac1a428eed2697737efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_04_Convex.asset using Guid(55c0b2a7c30ac1a428eed2697737efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa738eed58be3304ba7ac2dbbfd0df16') in 0.010918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_03_Convex 1.asset
-  artifactKey: Guid(5028546a966502d43b9f99445a7af8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_03_Convex 1.asset using Guid(5028546a966502d43b9f99445a7af8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc710eac0f154762557088d6e3a7b37') in 0.027093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_04_Convex.asset
-  artifactKey: Guid(b9fb5151a1e09f5499432c9f16962f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_04_Convex.asset using Guid(b9fb5151a1e09f5499432c9f16962f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c607dcd7853ec21374658614e1dc3a') in 0.009779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Thug_Male_02.prefab
-  artifactKey: Guid(2800e28c41ed28b4ea3758261ca1499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Thug_Male_02.prefab using Guid(2800e28c41ed28b4ea3758261ca1499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7134e38c6adec9bb06c6f8bbd32ebd3') in 0.019675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_04_Convex.asset
-  artifactKey: Guid(d79919fa353bd314d89c333d671a3920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_04_Convex.asset using Guid(d79919fa353bd314d89c333d671a3920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a83118402f9ed7ac06eabce85482319') in 0.010193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Thug_Male_02.prefab
-  artifactKey: Guid(304b0adaadef5f643a6e6d4f06099092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Thug_Male_02.prefab using Guid(304b0adaadef5f643a6e6d4f06099092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4280c5e1842e9c5a752218bda8538') in 0.021233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/FX/FX_GunSmoke_01.prefab
-  artifactKey: Guid(294dcb7f17d463547ac578472b10c38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/FX/FX_GunSmoke_01.prefab using Guid(294dcb7f17d463547ac578472b10c38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b25f93c217a3d280333d0742cf1c247') in 0.040651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_T_Section_01_Convex 1.asset
-  artifactKey: Guid(f3154d09081d1f5439dbb30fb956f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_T_Section_01_Convex 1.asset using Guid(f3154d09081d1f5439dbb30fb956f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58847cf8385a11375897a79d1e1edeb7') in 0.017825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Blocker_01_Convex.asset
-  artifactKey: Guid(3ba0308f2026c2741bc574d91f35c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Blocker_01_Convex.asset using Guid(3ba0308f2026c2741bc574d91f35c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88b31290b3c771570d6307d804fd2f4') in 0.010019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_03_Convex.asset
-  artifactKey: Guid(8f6d52d8c1754a04f9736fc72a3a7921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_03_Convex.asset using Guid(8f6d52d8c1754a04f9736fc72a3a7921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c30d33d1ff8f056f3272942d69d2d48') in 0.010380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_03_Convex.asset
-  artifactKey: Guid(d1c69233d0f0a7b43903c8168c61ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_03_Convex.asset using Guid(d1c69233d0f0a7b43903c8168c61ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824479d7db2b9b827ff6bda807d8c70a') in 0.011514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Curved_01_Convex.asset
-  artifactKey: Guid(4a71b05e741fb864db989a6b0af4f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Tunnel_Curved_01_Convex.asset using Guid(4a71b05e741fb864db989a6b0af4f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6591a7b91e6708c00086ee31cdf34ec') in 0.011429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Split_01_Convex.asset
-  artifactKey: Guid(2a2a787de2bdbee4b89dddbdb8214410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Split_01_Convex.asset using Guid(2a2a787de2bdbee4b89dddbdb8214410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c33548c444b4b74b2973c393663f04') in 0.010956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Thug_Male_01.prefab
-  artifactKey: Guid(83d6acf81ce429644af87dbde08a456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Thug_Male_01.prefab using Guid(83d6acf81ce429644af87dbde08a456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef4ebb77bc92cf4e0fa48e6e8e47519') in 0.020913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_02_Convex 1.asset
-  artifactKey: Guid(d53eada6a1e491647b4f37f6e4a3133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Frame_02_Convex 1.asset using Guid(d53eada6a1e491647b4f37f6e4a3133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1135f04a2ced892552e19a2dda8082') in 0.033139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_02_Convex.asset
-  artifactKey: Guid(fe0c739f6a151e1419f9a95f6f2d5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_02_Convex.asset using Guid(fe0c739f6a151e1419f9a95f6f2d5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb315dbfd441a46adb971e896e1d78b7') in 0.011730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Wep_ChainGun_01_Convex.asset
-  artifactKey: Guid(7a9d8a77e1632c54095444c7be4b28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Wep_ChainGun_01_Convex.asset using Guid(7a9d8a77e1632c54095444c7be4b28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8196bee13db7c3fc05a211fbd20e696') in 0.013687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Shop_01_Convex.asset
-  artifactKey: Guid(faf061b5d5cc27b45b6db7236a6b8414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Veh_Wagon_Shop_01_Convex.asset using Guid(faf061b5d5cc27b45b6db7236a6b8414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b962603bb7b7fc1276d182a5f946e5') in 0.010771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Log_03_Convex.asset
-  artifactKey: Guid(87a0387fa7b434543a1f80e69172fa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Log_03_Convex.asset using Guid(87a0387fa7b434543a1f80e69172fa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b5d4163a03e84ada4a675ab4855dfc') in 0.011023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 392.006580 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Captain_Male_01.prefab
-  artifactKey: Guid(9045014d7c0641e4e82018d4ebbfa022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Captain_Male_01.prefab using Guid(9045014d7c0641e4e82018d4ebbfa022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7ea2327b608ff7a2e1a483d33efaeb') in 0.026988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab
-  artifactKey: Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcec462920dc1531c5b91cad7f6c3c7') in 0.040282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Hunter_Male_01.prefab
-  artifactKey: Guid(53adac39f31adc641a66a1da0f1e47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Hunter_Male_01.prefab using Guid(53adac39f31adc641a66a1da0f1e47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2275638a2931c198c4efea754562aa0') in 0.023297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab
-  artifactKey: Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab using Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdfb39d0cd901f30ed6f26b3e1c16dc') in 0.021602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Soldier_Male_01.prefab
-  artifactKey: Guid(315d4ef298f6acc4b88941bfbb81bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Soldier_Male_01.prefab using Guid(315d4ef298f6acc4b88941bfbb81bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a703049dd2492309dec472412e449e') in 0.022414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Traveler_Female_01.prefab
-  artifactKey: Guid(895485474d7881841ad53144eee030cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Traveler_Female_01.prefab using Guid(895485474d7881841ad53144eee030cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e0a54464ce672b09af96b881dc93a4') in 0.022426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_02.prefab
-  artifactKey: Guid(00ab987898452b64582d6bf1a5caafd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_02.prefab using Guid(00ab987898452b64582d6bf1a5caafd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e6e1b0d42098d61d6a6becfd1159d') in 0.021964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanElder_Female_01.prefab
-  artifactKey: Guid(a1896e8f08d4ec6478c27aa1ee12c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanElder_Female_01.prefab using Guid(a1896e8f08d4ec6478c27aa1ee12c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec78c573bd2c64e87b0f60ccb8758b1') in 0.022353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab
-  artifactKey: Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab using Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade8173dc0733ed8b032a1cd36975472') in 0.019164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 544.440798 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Ladder_01_Convex.asset
-  artifactKey: Guid(e6d0c84e1cbdc0b43a098f00c8329020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Ladder_01_Convex.asset using Guid(e6d0c84e1cbdc0b43a098f00c8329020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11da07d34b477e7496f01e85db10d0a') in 0.025252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Ladder_02.fbx
-  artifactKey: Guid(05a04ec305ac049418a8382a9fa66621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Ladder_02.fbx using Guid(05a04ec305ac049418a8382a9fa66621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6ba40acf21d0ce1eb9530411cbfeb') in 0.045462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.105912 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Wagon_Destroyed_01_Convex.asset
-  artifactKey: Guid(96671bf266686c540be223f5c89ee8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Wagon_Destroyed_01_Convex.asset using Guid(96671bf266686c540be223f5c89ee8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afc38f852d9b14440c05adbd291dd5b') in 0.009850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonWesternFrontier/Models/SM_Prop_WagonWheel_01.fbx
-  artifactKey: Guid(9a96c2cdb9fb48943b848047ad2907ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_WagonWheel_01.fbx using Guid(9a96c2cdb9fb48943b848047ad2907ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421d4661363cf9fd79a5457b005650b8') in 0.015965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Travel_01.fbx
-  artifactKey: Guid(d4d44c5ad1a2845488495f7a0ec66e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Travel_01.fbx using Guid(d4d44c5ad1a2845488495f7a0ec66e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add918f4370f50480d393f6212c1fef8') in 0.073264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_WagonWheel_01_Convex.asset
-  artifactKey: Guid(acb14ac34c774334ab880442a173597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_WagonWheel_01_Convex.asset using Guid(acb14ac34c774334ab880442a173597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1503754833e53580369b985a0fd5c420') in 0.011855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Jail_01.fbx
-  artifactKey: Guid(8f721c679d6a2dc42aa758fd888e0188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Jail_01.fbx using Guid(8f721c679d6a2dc42aa758fd888e0188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc3895cb3027169e8c70acb5fb6f49e') in 0.054494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.643675 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_WaterTrough_01_Convex.asset
-  artifactKey: Guid(e5506883b8682d545a85d7b606e8d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_WaterTrough_01_Convex.asset using Guid(e5506883b8682d545a85d7b606e8d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4308fa1d6eb34137250b7bb23916fc29') in 0.009225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 442.686468 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab
-  artifactKey: Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671fbe6b14c2678b437d7f2d2f29168d') in 0.053738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd
-  artifactKey: Guid(efc1324f6160840a9a4c26231cc2d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd using Guid(efc1324f6160840a9a4c26231cc2d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd740754696114b8373a26c6b7a1aeede') in 0.090576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_B.png
-  artifactKey: Guid(782ded7d87645db4aa45280d299763ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_B.png using Guid(782ded7d87645db4aa45280d299763ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b569e13b37d6d51095681e6b9a165cbb') in 0.022589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_C.png
-  artifactKey: Guid(fb3a8e443b1cd3244aa5de7351c6cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_C.png using Guid(fb3a8e443b1cd3244aa5de7351c6cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a103006c24ae107965753611992cfc') in 0.019374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_A.png
-  artifactKey: Guid(e0d8a805be1449a4aa67cf897afc7bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_A.png using Guid(e0d8a805be1449a4aa67cf897afc7bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac324081745a96f6be385ac62995d0c') in 0.013185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Mexican_01.fbm/PolygonWesternFrontier_Texture_01_A_Cleaned.psd
-  artifactKey: Guid(297a18a5475de0e4a98cdeef8cead6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Mexican_01.fbm/PolygonWesternFrontier_Texture_01_A_Cleaned.psd using Guid(297a18a5475de0e4a98cdeef8cead6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a96ac79c9cf9649a65c0b61e3e34ebb') in 0.012515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 262.753174 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Crate_02.prefab
-  artifactKey: Guid(b5ac376bfda70684db43cca2770a849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Crate_02.prefab using Guid(b5ac376bfda70684db43cca2770a849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992c557923b618dfd3d4b99bb46f3ee6') in 0.013935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_LogPile_01.prefab
-  artifactKey: Guid(64662ae7674b301469fcf38f47b7c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_LogPile_01.prefab using Guid(64662ae7674b301469fcf38f47b7c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb58a53cead67b0a9cec24bb6c9892c') in 0.014589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_02.prefab
-  artifactKey: Guid(b51654c98963d5e4fada66788a43c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_02.prefab using Guid(b51654c98963d5e4fada66788a43c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60383f5d0b4932e84f24756d1d57aa3e') in 0.013708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_02.prefab
-  artifactKey: Guid(e671aedd86dfcf94eb8d7ead55f30828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_02.prefab using Guid(e671aedd86dfcf94eb8d7ead55f30828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5175a266463878136976f41ebb2282cf') in 0.013593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_03.prefab
-  artifactKey: Guid(5d6b0b688114d0245878e25c3bfd8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_03.prefab using Guid(5d6b0b688114d0245878e25c3bfd8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714a5eb926a79b5da11a549d9fd5f138') in 0.014490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_02.prefab
-  artifactKey: Guid(45d80c1462c75c5459f11ab98cc8bf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_02.prefab using Guid(45d80c1462c75c5459f11ab98cc8bf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afca849392a99494fea96da9385116b') in 0.018289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Shifting_Table_01.prefab
-  artifactKey: Guid(8ab5a02e22c07044fbc74031e43938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Shifting_Table_01.prefab using Guid(8ab5a02e22c07044fbc74031e43938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7656af6a3d8bd37abb0803a2b01a5f97') in 0.015071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Cup_01.prefab
-  artifactKey: Guid(4f1de429ac529a34989dbdb74395a4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Cup_01.prefab using Guid(4f1de429ac529a34989dbdb74395a4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27860c2a36393aedbb45ea697a6d1a3b') in 0.014916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fountain_01.prefab
-  artifactKey: Guid(e90695fafed21d0478fc36d426a1fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fountain_01.prefab using Guid(e90695fafed21d0478fc36d426a1fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df611ec6e0efdbb4b6961961ee1e92bb') in 0.014382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlankFence_01.prefab
-  artifactKey: Guid(1540fe30ec15da642a1ddc5cc8ddf379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlankFence_01.prefab using Guid(1540fe30ec15da642a1ddc5cc8ddf379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65682af45ea809803e08d24fc3193c5c') in 0.012926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Machine_02.prefab
-  artifactKey: Guid(83c08fa63f8d0b14391f3c2fc821e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Machine_02.prefab using Guid(83c08fa63f8d0b14391f3c2fc821e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0132c19cdc15dc5553c7232e8aefd50') in 0.015091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Ladder_02.prefab
-  artifactKey: Guid(ce004d8e487ebe84eb0cc75b33039704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Ladder_02.prefab using Guid(ce004d8e487ebe84eb0cc75b33039704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85429b8b85d81f3a06dd3fdc71555a16') in 0.014649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_03.prefab
-  artifactKey: Guid(e15603d47c318bc4d9dfc3aa30808366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_03.prefab using Guid(e15603d47c318bc4d9dfc3aa30808366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5e2fac2dfeb93fe53d0b362dfcdae1') in 0.015107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab
-  artifactKey: Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab using Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfac10f1d2193e9b98029ff171be764') in 0.014407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_01.prefab
-  artifactKey: Guid(54f2a90a1ea43574da9770d622ecf47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_01.prefab using Guid(54f2a90a1ea43574da9770d622ecf47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8859781e5020f339fe99facd59254389') in 0.015692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Iron_Panel_01.prefab
-  artifactKey: Guid(acb175eeffd2a5c458e18cc4edd75659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Iron_Panel_01.prefab using Guid(acb175eeffd2a5c458e18cc4edd75659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6b35c98ba6cbc203bb7da86fb4b31d') in 0.013898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_03.prefab
-  artifactKey: Guid(ba28b44a9a7d5244fa3a93b30b974cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_03.prefab using Guid(ba28b44a9a7d5244fa3a93b30b974cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f1bea0c84c3882499e9ca88491c0c') in 0.013426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkullPole_01.prefab
-  artifactKey: Guid(2e3cfebbd5d324e4eae5b923e7df1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkullPole_01.prefab using Guid(2e3cfebbd5d324e4eae5b923e7df1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1855773c7fe72eea4d6d3919adfaa909') in 0.014461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Oar_01.prefab
-  artifactKey: Guid(d2249a124cd2f6c4e8990294af22915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Oar_01.prefab using Guid(d2249a124cd2f6c4e8990294af22915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2a62ebcd55c89f07d1c76acf10bfdb') in 0.014204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_01.prefab
-  artifactKey: Guid(5e011a0f91817dd4eaa57f5d5364ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_01.prefab using Guid(5e011a0f91817dd4eaa57f5d5364ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd646a69cf08ef178877a0d2f73a3f07') in 0.013662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Ladder_01.prefab
-  artifactKey: Guid(82e54591c62d6414d8fbdc1dae0b188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Ladder_01.prefab using Guid(82e54591c62d6414d8fbdc1dae0b188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33960556f2ff9315f1e626970f82d17c') in 0.018870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab
-  artifactKey: Guid(6b8740ee700724c4690ccb36c43da73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab using Guid(6b8740ee700724c4690ccb36c43da73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e888d32305039d97f78f55b85f7e0fe4') in 0.013445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_04.prefab
-  artifactKey: Guid(67321a49bf735174c828626cfe32e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_04.prefab using Guid(67321a49bf735174c828626cfe32e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201deda38a361b21ffc16ee2ca0f1cf8') in 0.014308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_02.prefab
-  artifactKey: Guid(e4aa27bfbe6b74f4f84d5727b7c212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_02.prefab using Guid(e4aa27bfbe6b74f4f84d5727b7c212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733e6e4ecae1af5cee700aa8a8476a58') in 0.014379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3966.591161 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Arrow_01.prefab
-  artifactKey: Guid(bd38de4c558e48c408ab422c0bfa3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Arrow_01.prefab using Guid(bd38de4c558e48c408ab422c0bfa3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2585af2ba2fc70de78a68398b3eca6') in 0.031203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Wood_02.prefab
-  artifactKey: Guid(ac171a0c4d4861345923a2b135b7a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Wood_02.prefab using Guid(ac171a0c4d4861345923a2b135b7a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf3a8b7d335d35ac5306b3fe4332b6c') in 0.021567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_ChestFur_01.prefab
-  artifactKey: Guid(6f0408178912a0344a910b08867409be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_ChestFur_01.prefab using Guid(6f0408178912a0344a910b08867409be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5c572153a751fb72b3cb6ee1d9167c') in 0.012233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_Small_01.prefab
-  artifactKey: Guid(b30695f0a1d5c54459fa1a74213ea5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_Small_01.prefab using Guid(b30695f0a1d5c54459fa1a74213ea5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24721a43cf8f7c011465f0a7ecbd9f5') in 0.014043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Canoe_01.prefab
-  artifactKey: Guid(985b789d9bd48724faad4ef1ccb09677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Canoe_01.prefab using Guid(985b789d9bd48724faad4ef1ccb09677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b45eaa67946b4e67c55042fca2a0d0') in 0.012887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Cart_01.prefab
-  artifactKey: Guid(654b9fa08aaab69449e8aab4e2f73de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Cart_01.prefab using Guid(654b9fa08aaab69449e8aab4e2f73de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450e09fe4ae981da60cba36afac11ce4') in 0.015919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chair_01.prefab
-  artifactKey: Guid(85d7958f658981e49b5d74bbb73c6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chair_01.prefab using Guid(85d7958f658981e49b5d74bbb73c6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7352e0146444ac43e1049bf7786ec5f9') in 0.015482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab
-  artifactKey: Guid(60ce03615d103bb409d877a4519c303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab using Guid(60ce03615d103bb409d877a4519c303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23abe0fd51cf6c7e75bdeb1126caf494') in 0.014343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 113.525069 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Cabin_01.prefab
-  artifactKey: Guid(ca3718bfb22cdc34293591be070eba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Cabin_01.prefab using Guid(ca3718bfb22cdc34293591be070eba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9284575171df6864be821de8266d84a6') in 0.013575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Chimney_01.prefab
-  artifactKey: Guid(332f7eddde8fb9443aba7f8d5147a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Chimney_01.prefab using Guid(332f7eddde8fb9443aba7f8d5147a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7369331dd948b722d5a105de9f309f98') in 0.014261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_02.prefab
-  artifactKey: Guid(b516701065e91cb47aac920d72ab0f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_02.prefab using Guid(b516701065e91cb47aac920d72ab0f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806fb670b7a58baee3d5608205baf99e') in 0.015457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_01.prefab
-  artifactKey: Guid(d0cec343765de0445ace37eb2a2f5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_01.prefab using Guid(d0cec343765de0445ace37eb2a2f5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf7a0232a7c67a99c2ed90b834c0058') in 0.012464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Steps_01.prefab
-  artifactKey: Guid(9159d4fad9988d344845c029af587271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Steps_01.prefab using Guid(9159d4fad9988d344845c029af587271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b7d03d93d50ad952e4bccea01b623') in 0.013834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab
-  artifactKey: Guid(9554ca16439150d4590bafd9e427fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab using Guid(9554ca16439150d4590bafd9e427fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5a354f92ed78c3f28136edcbeda1a') in 0.014014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Entrance_01.prefab
-  artifactKey: Guid(17f29d0f7b6123643b270fadef195e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Entrance_01.prefab using Guid(17f29d0f7b6123643b270fadef195e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610fb220015da6b1d0b4bda42932622d') in 0.016996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_End_01.prefab
-  artifactKey: Guid(aae16948e1c1de4479cbd14c826ea072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_End_01.prefab using Guid(aae16948e1c1de4479cbd14c826ea072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d3670b703775d536475e367465463f') in 0.012797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_02.prefab
-  artifactKey: Guid(67f56b63fca89044a977b545607521ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_02.prefab using Guid(67f56b63fca89044a977b545607521ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe25a045f5f3eca66dd52af9c64ecc0') in 0.016953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_01.prefab
-  artifactKey: Guid(658743290ac77e4438c920e2a7358712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_01.prefab using Guid(658743290ac77e4438c920e2a7358712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07eb8bb04452545dc3cfd4dd839dd65') in 0.014808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Wall_01.prefab
-  artifactKey: Guid(0073c26b791b06c42bc891f2d1e617af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Wall_01.prefab using Guid(0073c26b791b06c42bc891f2d1e617af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc7e1945b9be83011a6c7eb0650f62') in 0.017083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_TowerCorner_01.prefab
-  artifactKey: Guid(901fa9eec8acf7c4eb9b6a0c29012927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_TowerCorner_01.prefab using Guid(901fa9eec8acf7c4eb9b6a0c29012927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07ee3b5988b93ac5c4f5771020b955e') in 0.018247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_01.prefab
-  artifactKey: Guid(8a1bfb157c0dac2448ad4eff5a0a477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_01.prefab using Guid(8a1bfb157c0dac2448ad4eff5a0a477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e1be1355c598f8430065d545c7edc0') in 0.014105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_01.prefab
-  artifactKey: Guid(8cf26142c8195b04ab699fc3c93ceb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_01.prefab using Guid(8cf26142c8195b04ab699fc3c93ceb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69febfb2e41aa303479d8d433d580bbb') in 0.017097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Cover_01.prefab
-  artifactKey: Guid(0bf16b78d0f798f4390e353f5336241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Cover_01.prefab using Guid(0bf16b78d0f798f4390e353f5336241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3dc38d7d1ad396bbd49521227863cb') in 0.018233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_01.prefab
-  artifactKey: Guid(e91d4132b0b22c14eb088dc1855996e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_01.prefab using Guid(e91d4132b0b22c14eb088dc1855996e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857ee31211c05480110b45822becf64a') in 0.015826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_Entrance_01.prefab
-  artifactKey: Guid(999507b54e071914ea0528b02f7d009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_Entrance_01.prefab using Guid(999507b54e071914ea0528b02f7d009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19133399796124217b7e369890421fc6') in 0.017739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_03.prefab
-  artifactKey: Guid(b59dc0cd8fa6b0e4dbb2c90e5650cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_03.prefab using Guid(b59dc0cd8fa6b0e4dbb2c90e5650cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96514e47f364fcb0cc8755a35b3cb68e') in 0.013292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_03.prefab
-  artifactKey: Guid(58ef710fba0d56d4da66ad6f94fb05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_03.prefab using Guid(58ef710fba0d56d4da66ad6f94fb05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e989e073a593f6ae1f546806742f7') in 0.014165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_02.prefab
-  artifactKey: Guid(af6bddf1a524eae4891e18265ec6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_02.prefab using Guid(af6bddf1a524eae4891e18265ec6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8ec86568d24c7380257f450a315739') in 0.018259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_04.prefab
-  artifactKey: Guid(821a274094cda354788749e299944b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_04.prefab using Guid(821a274094cda354788749e299944b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248e6e3e4a47d65bbced541504aabce4') in 0.016108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1918.438360 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab
-  artifactKey: Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab using Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b11b12b10e3dc657c2d2647a965a25') in 0.027268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Travel_01.prefab
-  artifactKey: Guid(de0057775676e7f4996fe8517bbfc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Travel_01.prefab using Guid(de0057775676e7f4996fe8517bbfc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194d8e4681b57ebb685f747dc843a7d4') in 0.014087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.007415 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_02.prefab
-  artifactKey: Guid(c3447cb9df113d2449816bc18de4303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_02.prefab using Guid(c3447cb9df113d2449816bc18de4303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8345d2fd1fdd8350a3380fe674817e5') in 0.014039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab
-  artifactKey: Guid(f0ec768316b28c241a358b2d69c94c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab using Guid(f0ec768316b28c241a358b2d69c94c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f55c5ee6f6e14bf6f5f65491f2679') in 0.015821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_02.prefab
-  artifactKey: Guid(ea6e5e3180ef2e54bbb58971a2a357bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_02.prefab using Guid(ea6e5e3180ef2e54bbb58971a2a357bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e032f1bb0d144a25ee19674235f6183d') in 0.018547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab
-  artifactKey: Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab using Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0cc1e184aeeb71fe6d4d9be7e733c') in 0.018330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Weapon_Rack_01.prefab
-  artifactKey: Guid(27c8ee6679d709a4d9b66cf152c1e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Weapon_Rack_01.prefab using Guid(27c8ee6679d709a4d9b66cf152c1e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad538043b4a7520c79d76f7c20712cc8') in 0.017542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Trumpet_01.prefab
-  artifactKey: Guid(7f1c4258c96d94c42830d45de2a90390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Trumpet_01.prefab using Guid(7f1c4258c96d94c42830d45de2a90390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbf4f200e6e3cd2cb34bb0d6ef237c6') in 0.017723 seconds 
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_04.prefab
+  artifactKey: Guid(ad617a5ae66a18941aa3bc82056f7623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_04.prefab using Guid(ad617a5ae66a18941aa3bc82056f7623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a3b35df307bf2d63fdef0b0d8b9393') in 0.019292 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Barrel_01.prefab
-  artifactKey: Guid(90bf11465095b134782cb56dc251a6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Barrel_01.prefab using Guid(90bf11465095b134782cb56dc251a6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6745e7b2c464acdc61445262968339') in 0.013889 seconds 
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Cross_01.prefab
+  artifactKey: Guid(24136dee65b34d5439385d0ed85dbb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Cross_01.prefab using Guid(24136dee65b34d5439385d0ed85dbb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c60d3ed61f62e8033628e5c9099c1d') in 0.016608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Shrub_01.prefab
+  artifactKey: Guid(5eacb0825d2135941976b2b401662c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Shrub_01.prefab using Guid(5eacb0825d2135941976b2b401662c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f106065772b1950b0f4735a689c28294') in 0.017699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Base_Angled_03.prefab
+  artifactKey: Guid(4b0549ce52c07cf4e86d7eca6bd3eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Base_Angled_03.prefab using Guid(4b0549ce52c07cf4e86d7eca6bd3eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a0ddca71261043a19c8e42425410ad') in 0.013074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_06.prefab
+  artifactKey: Guid(50be67da65ab30f45b10768454899cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_06.prefab using Guid(50be67da65ab30f45b10768454899cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85829664eda7d0a2ea265d598f0827b') in 0.015866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Curved_02.prefab
+  artifactKey: Guid(43d96d6c4ac53684f8baa502c0676313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Curved_02.prefab using Guid(43d96d6c4ac53684f8baa502c0676313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ec1d02387a679b711faa8b3267af15') in 0.014169 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodBox_01.prefab
-  artifactKey: Guid(b3247f5b42d0a1f429a254f73bff9e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodBox_01.prefab using Guid(b3247f5b42d0a1f429a254f73bff9e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822750f8c90d6617f577d678115ebf67') in 0.014599 seconds 
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_End_01.prefab
+  artifactKey: Guid(dc19da7f3198c5c489b06ab9535726aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_End_01.prefab using Guid(dc19da7f3198c5c489b06ab9535726aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f3ef200fb4ebf76555a5701aeb17e0') in 0.014443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab
-  artifactKey: Guid(90d927add719e9544b4905e0fdf76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab using Guid(90d927add719e9544b4905e0fdf76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de1ac8f349530d81b47de4e60eedca3') in 0.015162 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_02.prefab
+  artifactKey: Guid(c8894ad5d188f1a45849c93405a643a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_02.prefab using Guid(c8894ad5d188f1a45849c93405a643a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da1225bfc29201cf11b3d0ae11dfa29') in 0.012907 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_01.prefab
-  artifactKey: Guid(f77690c254d5a204c8f02319f751516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_01.prefab using Guid(f77690c254d5a204c8f02319f751516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8f28777ffcd120ccf55301d8c9033a') in 0.014395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_03.prefab
-  artifactKey: Guid(66b66592bfa418243a7e66f1df509cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_03.prefab using Guid(66b66592bfa418243a7e66f1df509cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598bc169ce94a4077a105c73a7694e17') in 0.013377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.324232 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab
-  artifactKey: Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab using Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f902ab86008d6821ebe7727409e3637f') in 0.038142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_03.prefab
-  artifactKey: Guid(09093ff8624662d43a05d585d0c17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_03.prefab using Guid(09093ff8624662d43a05d585d0c17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545ba0b1d1e0c0048228e651d65dc258') in 0.040413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Walkway_01_Convex 1.asset
-  artifactKey: Guid(b659a635b40417f4780c017da0775387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Walkway_01_Convex 1.asset using Guid(b659a635b40417f4780c017da0775387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8ee70d3ca182e86387fdeae01dd9b') in 0.039931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_02.prefab
-  artifactKey: Guid(6a8f21ba83708e943944219ac28b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_02.prefab using Guid(6a8f21ba83708e943944219ac28b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a67b8d470d3d5bfde9bfdf1ea8ad3d8') in 0.020844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Wall_01_Convex 1.asset
-  artifactKey: Guid(42ccf9c09e754f5498b6c31c42c90e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Wall_01_Convex 1.asset using Guid(42ccf9c09e754f5498b6c31c42c90e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bad982ec0fb55ac14be7f984d1c0569') in 0.008535 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Flattop_02.prefab
+  artifactKey: Guid(2a6a09a65c94a3a469d9d7a232fe5abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Flattop_02.prefab using Guid(2a6a09a65c94a3a469d9d7a232fe5abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d77f0b179282a43953cb075fdf44d8') in 0.011918 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab
-  artifactKey: Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b25741676f0cf3989f07eeaaf181c6d') in 0.021181 seconds 
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_01.prefab
+  artifactKey: Guid(cb9c10d259c6ad14ea2e8ef9e059bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_01.prefab using Guid(cb9c10d259c6ad14ea2e8ef9e059bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8549edb182ba0ce7a235d462f4821eef') in 0.013054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Flattop_01.prefab
+  artifactKey: Guid(b9f288200c64251438c0730deb30e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Flattop_01.prefab using Guid(b9f288200c64251438c0730deb30e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999df698178e37818d3bf61596210e0') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_02.prefab
+  artifactKey: Guid(ae5bc71c10f9926469fd06072b848849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_02.prefab using Guid(ae5bc71c10f9926469fd06072b848849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44a965012213ec9b2dfc8dc38dd04e') in 0.014049 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Wall_02_Convex 2.asset
-  artifactKey: Guid(c1bebf0dc8afbfb42a030440261746d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_Wall_02_Convex 2.asset using Guid(c1bebf0dc8afbfb42a030440261746d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facea3b37c43f7980fede27d4d16b253') in 0.021077 seconds 
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_01.prefab
+  artifactKey: Guid(852f64df64fbe0548932c29d8ad272c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_01.prefab using Guid(852f64df64fbe0548932c29d8ad272c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8453b5a437d89b7553d7bc0651ae9ef0') in 0.016143 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab
-  artifactKey: Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab using Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d29f054150652f0e937dbd2e5e3b2') in 0.021867 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Curved_01.prefab
+  artifactKey: Guid(329818f9d441fa244908108958fa4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Curved_01.prefab using Guid(329818f9d441fa244908108958fa4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8929c28beb39e5d2ab7fcee887bf6b') in 0.013025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_03.prefab
+  artifactKey: Guid(86f2e266d9ba4004aa3523931401c127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_03.prefab using Guid(86f2e266d9ba4004aa3523931401c127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c011f8391f1f10bead04eabdbf5a94') in 0.014683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_01.prefab
+  artifactKey: Guid(d62cbac560edcb547822d61c3d5b2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_01.prefab using Guid(d62cbac560edcb547822d61c3d5b2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f91d477633901a7a3ee2b22c88b05') in 0.012979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_01.prefab
+  artifactKey: Guid(fe9e61cde83fbfa40a4de6db01b5b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_01.prefab using Guid(fe9e61cde83fbfa40a4de6db01b5b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94dd1cdd40119e6af336d3a887ad1a0') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Bush_01.prefab
+  artifactKey: Guid(e2b775a77ec7cb94192f11bb7774e98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Bush_01.prefab using Guid(e2b775a77ec7cb94192f11bb7774e98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe44a4cc5b841e1217e4a619383ab1d') in 0.014366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_End_01.prefab
+  artifactKey: Guid(358c59a25a65e5a4099ee106fdcab10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_End_01.prefab using Guid(358c59a25a65e5a4099ee106fdcab10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149ca47ecf8e3febb29649dd390d3053') in 0.011628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_Cross_01.prefab
+  artifactKey: Guid(e4f570db8ff85444eafb62024ce60bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_Cross_01.prefab using Guid(e4f570db8ff85444eafb62024ce60bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71dbadad5a67c64846f2cf86ab09257') in 0.013036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Flower_02.prefab
+  artifactKey: Guid(551b28d6c453994458acc7566a7ca6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Flower_02.prefab using Guid(551b28d6c453994458acc7566a7ca6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70b06fc4ac3a54688e3432e15ef9645') in 0.014049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_02.prefab
+  artifactKey: Guid(a39e2adc69d6fca44914463a489f81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_02.prefab using Guid(a39e2adc69d6fca44914463a489f81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaf9aff0cc5873bdc55fbb60c36aa79') in 0.014415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_02.prefab
+  artifactKey: Guid(ed7e24f154c81c04c8750ea77f3e7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_02.prefab using Guid(ed7e24f154c81c04c8750ea77f3e7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238e1579b755e1341463647787109e81') in 0.012962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_01.prefab
+  artifactKey: Guid(43b1f32be67fdfb4f9bae60f35810369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_01.prefab using Guid(43b1f32be67fdfb4f9bae60f35810369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c575d3f973d5a59eb0fc535d424b76') in 0.013336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_03.prefab
+  artifactKey: Guid(5472627700b046a49ba4bcfa7c3113c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_03.prefab using Guid(5472627700b046a49ba4bcfa7c3113c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b508215276d5736757911313548203fd') in 0.014056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Pulley_01.prefab
+  artifactKey: Guid(1b5116512d33dc34fa578ba072eea81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Pulley_01.prefab using Guid(1b5116512d33dc34fa578ba072eea81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fdd87a0fec2498dc0e8be6925c89a6') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Barrier_01.prefab
+  artifactKey: Guid(58df2235b183b2144a0f819e69bffd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Barrier_01.prefab using Guid(58df2235b183b2144a0f819e69bffd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa011c28820e2c2fa38a831caca15689') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Desert_01.prefab
+  artifactKey: Guid(232230736ca35364491649faf7d527f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Desert_01.prefab using Guid(232230736ca35364491649faf7d527f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754f7f7b05840a65fcde0ecb0815aae1') in 0.013165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_04.prefab
+  artifactKey: Guid(7443f52966e8d1c41aa186f5300401a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_04.prefab using Guid(7443f52966e8d1c41aa186f5300401a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a56da0c34fd70c8fe1289a1a0c5fd5') in 0.013908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_02.prefab
+  artifactKey: Guid(6ce7d101e859cd3409c5d0916d5ee777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_02.prefab using Guid(6ce7d101e859cd3409c5d0916d5ee777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573061864ca5a0ebf3cff891abc81c5a') in 0.014327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_03.prefab
+  artifactKey: Guid(34db555e435cb6042949ba1b1a95a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_03.prefab using Guid(34db555e435cb6042949ba1b1a95a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eac55fd05024f816e19e38f61ee1f86') in 0.014092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_05.prefab
+  artifactKey: Guid(f82f799a80f40ea45883e64c70d84f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_05.prefab using Guid(f82f799a80f40ea45883e64c70d84f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9173396516ac353ea9e0b16e1c1be137') in 0.014074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Curved_01.prefab
+  artifactKey: Guid(96e2ac96012a3bb4f9a2fde33433a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Curved_01.prefab using Guid(96e2ac96012a3bb4f9a2fde33433a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e9d7252524ad1abf47d437e76b7458') in 0.013626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_07.prefab
+  artifactKey: Guid(e4994f18a15e8a64a89a92edc1f7387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_07.prefab using Guid(e4994f18a15e8a64a89a92edc1f7387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac32efdd9a10264959c5e73ad17baa8c') in 0.014624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_01.prefab
+  artifactKey: Guid(ef711e4734b4a9145ad8383e1572e57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_01.prefab using Guid(ef711e4734b4a9145ad8383e1572e57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76829b4e13af00d9710d56c945fee5f0') in 0.013547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_01.prefab
+  artifactKey: Guid(36e707806c44b75419d0b4121232db61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_01.prefab using Guid(36e707806c44b75419d0b4121232db61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e40d5a31c54b341ec1cc3e4346086cc') in 0.012906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_03.prefab
+  artifactKey: Guid(e7ff95b984b501c4c86d970c737b2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_03.prefab using Guid(e7ff95b984b501c4c86d970c737b2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cca5abc85937835c2541c91629dddb3') in 0.013701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_04.prefab
+  artifactKey: Guid(2be5cb367bc318f4695d72365d20cf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_04.prefab using Guid(2be5cb367bc318f4695d72365d20cf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5317cfe9264c592578874d18bdb2783') in 0.015377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.215190 seconds.
+  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Grass_Desert_01_Convex.asset
+  artifactKey: Guid(1e48073c30f4dfe4a84418e4bd7a6e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Grass_Desert_01_Convex.asset using Guid(1e48073c30f4dfe4a84418e4bd7a6e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e05be299f232023b1d2de845990a1ba') in 0.020701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_01.prefab
+  artifactKey: Guid(f88e5a25e4517044fa3d3fde9a85fa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_01.prefab using Guid(f88e5a25e4517044fa3d3fde9a85fa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0883cb56dc680ce73215d856b432b12e') in 0.013435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_ShrubGrass_02_Convex.asset
+  artifactKey: Guid(f7dd4884912bfcc4dae20b40a0cc6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_ShrubGrass_02_Convex.asset using Guid(f7dd4884912bfcc4dae20b40a0cc6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a354daca8627e34388b9771096f4145f') in 0.008819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_03.fbx
+  artifactKey: Guid(fb8e1d205adc0664fa0065cc55bad6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_03.fbx using Guid(fb8e1d205adc0664fa0065cc55bad6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40142fa0d4e002910abe83cd549a1cd') in 0.046656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_ShrubGrass_03_Convex.asset
+  artifactKey: Guid(24a38e1c3d30d5b4c91f7252c8b8c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_ShrubGrass_03_Convex.asset using Guid(24a38e1c3d30d5b4c91f7252c8b8c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6060ecf1c114659b94d3c93f4f52d2') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Ground_02.prefab
+  artifactKey: Guid(c675f29b886830c42bb3d72bc810e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Ground_02.prefab using Guid(c675f29b886830c42bb3d72bc810e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37fc87e95de98365b7cdb8d561e074e') in 0.012613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Grass_Shrub_01_Convex.asset
+  artifactKey: Guid(19c56912b5b8be341b3afd28835f7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Grass_Shrub_01_Convex.asset using Guid(19c56912b5b8be341b3afd28835f7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9144f776be1de3b79dd0665bd25348') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_02.fbx
+  artifactKey: Guid(78aa114a91a05924cabc61f283837ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_02.fbx using Guid(78aa114a91a05924cabc61f283837ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c2f21ece144b769228decedd6b83f') in 0.014519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.627154 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_Flat_01.prefab
+  artifactKey: Guid(96763b22b987cd944be576d435d1acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_Flat_01.prefab using Guid(96763b22b987cd944be576d435d1acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e881ca0bacffd05ba193c6c3a19f257f') in 0.014138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.256686 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Captain_Male_01.prefab
+  artifactKey: Guid(61a51a0904b1ab846b8015fc4017ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Captain_Male_01.prefab using Guid(61a51a0904b1ab846b8015fc4017ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92700959ac0084ff993cddf0b1dc22b1') in 0.067057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd
+  artifactKey: Guid(1e91fdbfb2b154a18b675257bc4d43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd using Guid(1e91fdbfb2b154a18b675257bc4d43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd31709dee8b0d2d7cc79100e005cee7') in 0.025471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Priest_Male_01.prefab
+  artifactKey: Guid(5b0f99eedb8337d45bf411c119c9bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Priest_Male_01.prefab using Guid(5b0f99eedb8337d45bf411c119c9bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ef5c9db1b8956d3cc7a4eeeb6b1691') in 0.025788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.141944 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Slope_01.prefab
+  artifactKey: Guid(908af256cb93a154abe6da1cf794e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Slope_01.prefab using Guid(908af256cb93a154abe6da1cf794e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20608a290ef70d388ac64b22c1f8d109') in 0.011937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Curved_01.prefab
+  artifactKey: Guid(8ca1cded15b163f498ab61068a9889c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Curved_01.prefab using Guid(8ca1cded15b163f498ab61068a9889c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93bf51fcec748b3f92cf8d00e319da4') in 0.012366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Mine_Entrance_01.prefab
+  artifactKey: Guid(4a1810fd2b5bc6c4ea46857eb78272c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Mine_Entrance_01.prefab using Guid(4a1810fd2b5bc6c4ea46857eb78272c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00fc716827677f449c4c1bd99c5b1d9') in 0.013480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Slope_03.prefab
+  artifactKey: Guid(eaa642e1a3c6c534ab17283f0a791e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Slope_03.prefab using Guid(eaa642e1a3c6c534ab17283f0a791e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a779a54f97fee6ec00d32df587f9da5') in 0.012401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_End_01.prefab
+  artifactKey: Guid(4fe7a64d61b2183489c627603a63a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_End_01.prefab using Guid(4fe7a64d61b2183489c627603a63a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8686363db643a807a6ed90e553e5c5ac') in 0.015268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Rocks_03.prefab
+  artifactKey: Guid(d0f65556d16ed2e4fafdfce78427df2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Rocks_03.prefab using Guid(d0f65556d16ed2e4fafdfce78427df2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b866fee3825d149c78f2c0625fae9ef0') in 0.015428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Curved_02.prefab
+  artifactKey: Guid(efb87cf1549d7d542bf3d3f882bd4cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Curved_02.prefab using Guid(efb87cf1549d7d542bf3d3f882bd4cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82760c322a74057aed5bca65314ac4f') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.450544 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Round_02.prefab
+  artifactKey: Guid(160272ec2be416f4f81b7434c5e8faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Round_02.prefab using Guid(160272ec2be416f4f81b7434c5e8faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3193f765cc51bb77802daac43960e48c') in 0.010861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_01.prefab
+  artifactKey: Guid(0f729ed1da8c06445898e600136e6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_01.prefab using Guid(0f729ed1da8c06445898e600136e6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1313d7b1c18bd0b9ddfee2a6c2dd50') in 0.012014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_01.prefab
+  artifactKey: Guid(47d0b7074efa38b4ca6999c8f77f8c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_01.prefab using Guid(47d0b7074efa38b4ca6999c8f77f8c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2662aea083984bb8118ae76d836e4ff') in 0.011937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_01.prefab
+  artifactKey: Guid(5d88ec504e6a7c7479182fef48305fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_01.prefab using Guid(5d88ec504e6a7c7479182fef48305fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc18e7c211f16af121cc837ed99aee') in 0.011817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Split_01.prefab
+  artifactKey: Guid(952e3cc1df2ecf84c9751cf071752c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Split_01.prefab using Guid(952e3cc1df2ecf84c9751cf071752c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3943b12ce1851dc389246efc91bb5d6b') in 0.012374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_01.prefab
+  artifactKey: Guid(f6fb50e760598c84b80b58178f21cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_01.prefab using Guid(f6fb50e760598c84b80b58178f21cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d65c5cb9fd180174c7395c9691e2419') in 0.011963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Corner_R_02.prefab
+  artifactKey: Guid(87bcc2b20880ccb4baaa7833961ebd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Corner_R_02.prefab using Guid(87bcc2b20880ccb4baaa7833961ebd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f363b525714c05105cf6264b6d266b8') in 0.012798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Desert_01.prefab
+  artifactKey: Guid(b7a3bf101d1963f4f9cc2cf96a26c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Desert_01.prefab using Guid(b7a3bf101d1963f4f9cc2cf96a26c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3733433ab102fd1342a6781b4bd450') in 0.012041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Clump_01.prefab
+  artifactKey: Guid(c96b7b2438403f740906346daaaffa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Clump_01.prefab using Guid(c96b7b2438403f740906346daaaffa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78495e5e55476eca34bfcc53a52c618f') in 0.011794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Stump_01.prefab
+  artifactKey: Guid(5c35d0e0c7c3cf143b36a2d83ce62038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Stump_01.prefab using Guid(5c35d0e0c7c3cf143b36a2d83ce62038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7920b1321426396bbb2eb8d9769f7ff') in 0.013395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_03.prefab
+  artifactKey: Guid(6ca33031738ba9e41a23758717d1e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_03.prefab using Guid(6ca33031738ba9e41a23758717d1e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd96ddb0a26949fb1057a9fd0e9109') in 0.012508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_04.prefab
+  artifactKey: Guid(ef5703f857a3aa249b9efd17bd5a7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_04.prefab using Guid(ef5703f857a3aa249b9efd17bd5a7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b87ddc6dd7b8d46cb2c1a63410506d') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_02.prefab
+  artifactKey: Guid(c4cb2573a82ed654d87dbcfcebb784fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_02.prefab using Guid(c4cb2573a82ed654d87dbcfcebb784fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104732387e23bc8583b4112f498d205d') in 0.011706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_02.prefab
+  artifactKey: Guid(57db1575d7ae8174693d14731f604c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_02.prefab using Guid(57db1575d7ae8174693d14731f604c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5299b2158d6c31bb2c4c2dcd234ee284') in 0.012126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_05.prefab
+  artifactKey: Guid(951364fa969a0a04ba1f81a7176d6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_05.prefab using Guid(951364fa969a0a04ba1f81a7176d6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4e5f04903780807a967e447901e07a') in 0.012223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeDead_Fallen_01.prefab
+  artifactKey: Guid(3d58394a6f2c15a4f926d0c7cf0a1164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_TreeDead_Fallen_01.prefab using Guid(3d58394a6f2c15a4f926d0c7cf0a1164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20f5c3c006e9ffebc958a40f525f40d') in 0.013124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_04.prefab
+  artifactKey: Guid(eeaec581c9b4b0b4dbc37ec8232a81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_04.prefab using Guid(eeaec581c9b4b0b4dbc37ec8232a81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c2a67396947ba306cf4ff3a00941a') in 0.012791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_02.prefab
+  artifactKey: Guid(fe31fcea5460d6449a9cef0d6b859234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_02.prefab using Guid(fe31fcea5460d6449a9cef0d6b859234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb87ff3d7026d9dd52a50b4bb02307b') in 0.012349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab
+  artifactKey: Guid(0494383efaa5afb40993d7b2076cf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab using Guid(0494383efaa5afb40993d7b2076cf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1fb0836ead1b1469cc508734d2e7e4') in 0.012130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_01.prefab
+  artifactKey: Guid(e8a473c390941604887ce3d717898773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Tree_Tall_01.prefab using Guid(e8a473c390941604887ce3d717898773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773ec9ed34fcb5cd424241db5d09d78') in 0.012782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_04.prefab
+  artifactKey: Guid(8afcdba2550a55b48b618b8c64e07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_04.prefab using Guid(8afcdba2550a55b48b618b8c64e07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7627b23f8f28d1ade3724f8d3230998') in 0.011943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Straight_02.prefab
+  artifactKey: Guid(4900f57c7a29d7d41bfad5e9e6f8edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Quarry_Wall_Straight_02.prefab using Guid(4900f57c7a29d7d41bfad5e9e6f8edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b9e003afad671ff1bcd633762b6694') in 0.012555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_01.prefab
+  artifactKey: Guid(46175349ba374014a86463721899bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Shrub_01.prefab using Guid(46175349ba374014a86463721899bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53da8a815262dbc1879c8677e07d4d9') in 0.013289 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3972.
+Memory consumption went from 139.5 MB to 139.4 MB.
+Total: 2.940500 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.457400 ms  DeleteObjects: 0.082300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
