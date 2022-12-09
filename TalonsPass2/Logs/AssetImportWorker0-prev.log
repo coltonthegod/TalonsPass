@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16299 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Repo/TalonsPass/TalonsPass2
+C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54982
-Successfully changed project path to: D:/Repo/TalonsPass/TalonsPass2
-D:/Repo/TalonsPass/TalonsPass2
+61444
+Successfully changed project path to: C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
+C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,53 +47,53 @@ D:/Repo/TalonsPass/TalonsPass2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Repo/TalonsPass/TalonsPass2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Gregory/Source/Repos/TalonsPass/TalonsPass2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
-    Vendor:   NVIDIA
-    VRAM:     8010 MB
-    Driver:   31.0.15.1694
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.12027.7000
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005711 seconds.
+Registered in 0.004320 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.535 seconds
+- Completed reload, in  0.555 seconds
 Domain Reload Profiling:
-	ReloadAssembly (535ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (556ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (385ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (232ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadAttributes (115ms)
 				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,51 +101,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002797 seconds.
+Registered in 0.008312 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gregory\Source\Repos\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (300ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3834.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.593000 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.175300 ms  DeleteObjects: 0.074800 ms)
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3956.
+Memory consumption went from 122.2 MB to 122.1 MB.
+Total: 3.224600 ms (FindLiveObjects: 0.342600 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.691400 ms  DeleteObjects: 0.092200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,971 +159,535 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 218738.607956 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3f78fbdd54e056e40b798dcc85c9e803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3f78fbdd54e056e40b798dcc85c9e803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ca8f81d236a010ef286b34a62399b') in 0.009280 seconds 
+  Time since last request: 2773.399892 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Wood_02.prefab
+  artifactKey: Guid(ac171a0c4d4861345923a2b135b7a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Wood_02.prefab using Guid(ac171a0c4d4861345923a2b135b7a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a48467548582b88502d76dfe0a681da') in 0.135544 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.409788 seconds.
-  path: Assets/Scripts/Movement.cs
-  artifactKey: Guid(b66bd5eede4d75f42b81d8b763141930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement.cs using Guid(b66bd5eede4d75f42b81d8b763141930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b913a8efdf2137ca5a0df520dd887a') in 0.020182 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002745 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Domain Reload Profiling:
-	ReloadAssembly (841ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3838.
-Memory consumption went from 116.0 MB to 116.0 MB.
-Total: 2.393900 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.113700 ms MarkObjects: 2.031100 ms  DeleteObjects: 0.059700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003130 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
-Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3841.
-Memory consumption went from 116.0 MB to 116.0 MB.
-Total: 2.481100 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.073700 ms  DeleteObjects: 0.066700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002920 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (668ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (297ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3844.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.351800 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.224500 ms MarkObjects: 1.797100 ms  DeleteObjects: 0.065600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003374 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Domain Reload Profiling:
-	ReloadAssembly (846ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (292ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3847.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.204700 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.140000 ms MarkObjects: 1.810100 ms  DeleteObjects: 0.062300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003269 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Domain Reload Profiling:
-	ReloadAssembly (841ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (648ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3850.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.310500 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.123900 ms MarkObjects: 1.917300 ms  DeleteObjects: 0.064400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003914 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (652ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (292ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3853.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.162200 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.120200 ms MarkObjects: 1.770200 ms  DeleteObjects: 0.070500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003282 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.826 seconds
-Domain Reload Profiling:
-	ReloadAssembly (826ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (279ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3856.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.156400 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.121500 ms MarkObjects: 1.763300 ms  DeleteObjects: 0.063200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003358 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
-Domain Reload Profiling:
-	ReloadAssembly (843ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3859.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.806900 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.372800 ms  DeleteObjects: 0.065800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003429 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3862.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.172500 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.121200 ms MarkObjects: 1.779400 ms  DeleteObjects: 0.067100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002989 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Domain Reload Profiling:
-	ReloadAssembly (947ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (708ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (298ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3865.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.346000 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.122000 ms MarkObjects: 1.966800 ms  DeleteObjects: 0.062500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_02.prefab
+  artifactKey: Guid(b51654c98963d5e4fada66788a43c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Planks_02.prefab using Guid(b51654c98963d5e4fada66788a43c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b32564e158f6af86809296595fc3b6') in 0.019900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1489.205820 seconds.
-  path: Assets/Scripts/Movement.cs
-  artifactKey: Guid(b66bd5eede4d75f42b81d8b763141930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement.cs using Guid(b66bd5eede4d75f42b81d8b763141930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fca7ba1e8592f4fbddfb9305eb1f8c') in 0.008579 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Spear_01.prefab
+  artifactKey: Guid(7ab88746780ce9b4bb0fb9674a8bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Spear_01.prefab using Guid(7ab88746780ce9b4bb0fb9674a8bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb4cd0ce83ff74712017211fe24265b') in 0.017999 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
-Domain Reload Profiling:
-	ReloadAssembly (873ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (671ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3868.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.441600 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.135200 ms MarkObjects: 2.025800 ms  DeleteObjects: 0.059400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_02.prefab
+  artifactKey: Guid(45d80c1462c75c5459f11ab98cc8bf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_02.prefab using Guid(45d80c1462c75c5459f11ab98cc8bf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ebd4f3cacf26b119e0aac2956998b7') in 0.017558 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003308 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
-Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (324ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3871.
-Memory consumption went from 116.1 MB to 116.1 MB.
-Total: 2.542800 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.162700 ms  DeleteObjects: 0.062900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pipes_01.prefab
+  artifactKey: Guid(5998243df1ceded4e826f7be8d44d2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pipes_01.prefab using Guid(5998243df1ceded4e826f7be8d44d2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d58473f066ccef75dadb917a746cc5') in 0.013781 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002785 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Domain Reload Profiling:
-	ReloadAssembly (906ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3874.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 4.178600 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.163000 ms MarkObjects: 3.614000 ms  DeleteObjects: 0.116300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Shifting_Table_01.prefab
+  artifactKey: Guid(8ab5a02e22c07044fbc74031e43938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Shifting_Table_01.prefab using Guid(8ab5a02e22c07044fbc74031e43938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8a47f33db36f13ed9bb6a4f5f80820') in 0.013412 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003365 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3877.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.368600 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.140500 ms MarkObjects: 1.936700 ms  DeleteObjects: 0.068600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Gold_Nugget_01.prefab
+  artifactKey: Guid(e476283e17c9bf24e882749be682828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Gold_Nugget_01.prefab using Guid(e476283e17c9bf24e882749be682828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb11200f66d16045765a8bc0fdb3a815') in 0.014822 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003720 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
-Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (713ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3880.
-Memory consumption went from 116.1 MB to 116.1 MB.
-Total: 2.138300 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.111400 ms MarkObjects: 1.764600 ms  DeleteObjects: 0.063100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Gunstock_01.prefab
+  artifactKey: Guid(6541a368ea1fc694bbdb198b1af40f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Gunstock_01.prefab using Guid(6541a368ea1fc694bbdb198b1af40f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af770faa34a0b6f7321b64ef2a0d630f') in 0.015154 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003105 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3883.
-Memory consumption went from 116.1 MB to 116.1 MB.
-Total: 2.210000 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.141500 ms MarkObjects: 1.757600 ms  DeleteObjects: 0.067100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlankFence_01.prefab
+  artifactKey: Guid(1540fe30ec15da642a1ddc5cc8ddf379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlankFence_01.prefab using Guid(1540fe30ec15da642a1ddc5cc8ddf379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81d54f1fdbe537a2334e8ef979c8c8') in 0.014967 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003039 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Repo\TalonsPass\TalonsPass2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3886.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 2.644100 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.200400 ms  DeleteObjects: 0.069500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Machine_01.prefab
+  artifactKey: Guid(154dd06705bec04409df25fc30f1ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Machine_01.prefab using Guid(154dd06705bec04409df25fc30f1ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd59380efd6596c45237792f5a41769f') in 0.014999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_01.prefab
+  artifactKey: Guid(9e0d017ccc48a424cb5e257aec71856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_01.prefab using Guid(9e0d017ccc48a424cb5e257aec71856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879cba026d892833f752689811180118') in 0.014845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Revolver_01.prefab
+  artifactKey: Guid(4d5c869ec91d2c44c9a82dbee2a11e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Revolver_01.prefab using Guid(4d5c869ec91d2c44c9a82dbee2a11e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbca34037ca6b20d88899d7793a0a52') in 0.013792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Hammer_01.prefab
+  artifactKey: Guid(19cc85b724f1bea4c806426ea56b0ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Hammer_01.prefab using Guid(19cc85b724f1bea4c806426ea56b0ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432e79b2d866d87cfee7a29f25aa36da') in 0.013699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkinRack_01.prefab
+  artifactKey: Guid(9f3eb78c0feecba4199f8e4974ea0a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkinRack_01.prefab using Guid(9f3eb78c0feecba4199f8e4974ea0a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d348c605793f2822a67294817ac8e8') in 0.014603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Sword_01.prefab
+  artifactKey: Guid(0531766aead754b4a84e746f441766ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Sword_01.prefab using Guid(0531766aead754b4a84e746f441766ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954c86c7d1617a6d312ec2511708420c') in 0.013981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_02.prefab
+  artifactKey: Guid(ebb5a6fc84832e142a5a572c73197c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_02.prefab using Guid(ebb5a6fc84832e142a5a572c73197c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc8168498ca02e6e2ece5043fcbc144') in 0.015162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Iron_Panel_01.prefab
+  artifactKey: Guid(acb175eeffd2a5c458e18cc4edd75659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Quarry_Iron_Panel_01.prefab using Guid(acb175eeffd2a5c458e18cc4edd75659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daebb232688292adbd361a3a07a01d11') in 0.017340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkullPole_01.prefab
+  artifactKey: Guid(2e3cfebbd5d324e4eae5b923e7df1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_SkullPole_01.prefab using Guid(2e3cfebbd5d324e4eae5b923e7df1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55806c5c52a593e5faef3e743e423fc9') in 0.014214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Rifle_Stack_01.prefab
+  artifactKey: Guid(11436a51834fc3248856e965abc7ca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Rifle_Stack_01.prefab using Guid(11436a51834fc3248856e965abc7ca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e2bdc34b383ba75532a68d2ecd2af1') in 0.016298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_01.prefab
+  artifactKey: Guid(3d0da2bfa097d174f868f26302c397e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_01.prefab using Guid(3d0da2bfa097d174f868f26302c397e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f02b30f46cf204b70e90db331ed0424') in 0.020298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_01.prefab
+  artifactKey: Guid(5e011a0f91817dd4eaa57f5d5364ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_01.prefab using Guid(5e011a0f91817dd4eaa57f5d5364ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9d24e0eb1736c1a2d6607719624cb2') in 0.014055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_01.prefab
+  artifactKey: Guid(5fdee6348444e4740855457b2042818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_01.prefab using Guid(5fdee6348444e4740855457b2042818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9af8cdc4efaafe312e5f0d7b5d8fcc1') in 0.013038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_ChainGun_01.prefab
+  artifactKey: Guid(66a889cc3f242fb43be077f3dd13d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_ChainGun_01.prefab using Guid(66a889cc3f242fb43be077f3dd13d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbea3b1486ac95f1cdf47d533b13f71') in 0.014123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab
+  artifactKey: Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab using Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff32be1e7febd10dc4c7fa25e74f33a') in 0.017335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_02.prefab
+  artifactKey: Guid(e4aa27bfbe6b74f4f84d5727b7c212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PikeFence_02.prefab using Guid(e4aa27bfbe6b74f4f84d5727b7c212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c37e05e418a1b4a6d7d6da1aa2c39') in 0.013871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Jail_01.prefab
+  artifactKey: Guid(b3edc776d98841f4eb38fa648898eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Jail_01.prefab using Guid(b3edc776d98841f4eb38fa648898eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd646e053e28e49d2fc9ca618011e55fb') in 0.014640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Basket_01.prefab
+  artifactKey: Guid(21ad646f7480143489a4865e1d1100e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Basket_01.prefab using Guid(21ad646f7480143489a4865e1d1100e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa3c2dd24ff2b519778abcb45ee05af') in 0.013845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_02.prefab
+  artifactKey: Guid(e671aedd86dfcf94eb8d7ead55f30828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pike_02.prefab using Guid(e671aedd86dfcf94eb8d7ead55f30828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9707e240ce6b2218b9b02f987f79ca') in 0.014006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_03.prefab
+  artifactKey: Guid(bf25e09e0cbf31347b919ee4c9eda186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_03.prefab using Guid(bf25e09e0cbf31347b919ee4c9eda186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62030086b17a1f5608451981f9a98bb') in 0.013963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_01.prefab
+  artifactKey: Guid(ac728ce9ca76cf84bb4f051bad08e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_01.prefab using Guid(ac728ce9ca76cf84bb4f051bad08e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c3ccb62d8fe2a7887f3f8ca016fe3') in 0.016383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_Small_01.prefab
+  artifactKey: Guid(b30695f0a1d5c54459fa1a74213ea5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Campfire_Small_01.prefab using Guid(b30695f0a1d5c54459fa1a74213ea5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4a2a1e1229ec819c17c529e2b7c2f') in 0.013885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Sand_01.prefab
+  artifactKey: Guid(c045d8e313a8e304f846177d95269414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Barricade_Sand_01.prefab using Guid(c045d8e313a8e304f846177d95269414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ba591cdd943c189b2f0591551969b1') in 0.014075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_CampBed_01.prefab
+  artifactKey: Guid(34a762ecbf962654fb2a6491776457d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_CampBed_01.prefab using Guid(34a762ecbf962654fb2a6491776457d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6406949a7fdcfb8e539ee2beca70613') in 0.012966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Cloud_03.prefab
+  artifactKey: Guid(6068f0d0298633f4d97cd682123592b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Cloud_03.prefab using Guid(6068f0d0298633f4d97cd682123592b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76566e46e3c3d216c3591073d9202b0e') in 0.012845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_03.prefab
+  artifactKey: Guid(1e04885e0a1d5ef4781add467422da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_03.prefab using Guid(1e04885e0a1d5ef4781add467422da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e129409c49168b994d6972866a1012') in 0.013668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab
+  artifactKey: Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab using Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55889085904d329011fe3b50b4f66596') in 0.013018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_02.prefab
+  artifactKey: Guid(a7ecabdd36598044da543ddfd3b12653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_02.prefab using Guid(a7ecabdd36598044da543ddfd3b12653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a4d40cac55dc5a7c417fecd257c797') in 0.014329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_03.prefab
+  artifactKey: Guid(32f4aa73b9d6d0543a1f6802ac435dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Gerneric_Grass_Patch_03.prefab using Guid(32f4aa73b9d6d0543a1f6802ac435dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1712e99efd35466fae72ed95d1d93f8') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_01.prefab
+  artifactKey: Guid(54f2a90a1ea43574da9770d622ecf47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_01.prefab using Guid(54f2a90a1ea43574da9770d622ecf47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed88101672c6fbcf39b6a39825d8581') in 0.014119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Lantern_01.prefab
+  artifactKey: Guid(01f5951f173809043a11757448a75fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Lantern_01.prefab using Guid(01f5951f173809043a11757448a75fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3707bb552d1ac0541d8b73cc87e93ccf') in 0.014054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Alcohol_Barrel_01.prefab
+  artifactKey: Guid(38ae44bf488483743bd531d15508d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Alcohol_Barrel_01.prefab using Guid(38ae44bf488483743bd531d15508d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed481b5e2f664c8d698028d81869c9a3') in 0.013657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Oar_01.prefab
+  artifactKey: Guid(d2249a124cd2f6c4e8990294af22915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Oar_01.prefab using Guid(d2249a124cd2f6c4e8990294af22915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa6840cf4d6b0f1f65c6e74ba731903') in 0.013610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab
+  artifactKey: Guid(60ce03615d103bb409d877a4519c303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab using Guid(60ce03615d103bb409d877a4519c303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db8fcbadb0cb4cd391af8f43195326a') in 0.013110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab
+  artifactKey: Guid(6b8740ee700724c4690ccb36c43da73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab using Guid(6b8740ee700724c4690ccb36c43da73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384c227910d69fb3000d388205cf30b0') in 0.013887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_03.prefab
+  artifactKey: Guid(9d5cdf889468e8847a6a283231235c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Fur_Rug_03.prefab using Guid(9d5cdf889468e8847a6a283231235c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0e5e3d74b5993517ee84a3c67867f') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.923195 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Barn_01.prefab
+  artifactKey: Guid(b04408cce5f94234d920b87a9bfa438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Barn_01.prefab using Guid(b04408cce5f94234d920b87a9bfa438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685c5105aef4d56385f9935f6f21bc9a') in 0.016832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_02.prefab
+  artifactKey: Guid(b516701065e91cb47aac920d72ab0f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Entrance_02.prefab using Guid(b516701065e91cb47aac920d72ab0f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5692625e3e6664d6a794c715835a3b') in 0.015986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_03.prefab
+  artifactKey: Guid(bbe6159c338a11240b8915f295518145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_03.prefab using Guid(bbe6159c338a11240b8915f295518145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55be5e0b8ce5fc4dbf13596f9d61f18') in 0.014810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab
+  artifactKey: Guid(9554ca16439150d4590bafd9e427fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab using Guid(9554ca16439150d4590bafd9e427fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dcd58d705c4c59effad12f968acf65') in 0.018803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_End_01.prefab
+  artifactKey: Guid(aae16948e1c1de4479cbd14c826ea072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_End_01.prefab using Guid(aae16948e1c1de4479cbd14c826ea072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddcc6756b405a1d45a9a8c2d049ccad') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Wall_01.prefab
+  artifactKey: Guid(0073c26b791b06c42bc891f2d1e617af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Wall_01.prefab using Guid(0073c26b791b06c42bc891f2d1e617af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b848940ea4f58786f16eaa2414162eea') in 0.015168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_01.prefab
+  artifactKey: Guid(8a1bfb157c0dac2448ad4eff5a0a477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_01.prefab using Guid(8a1bfb157c0dac2448ad4eff5a0a477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c32060fae48782cf09018fe4e86ace3') in 0.020001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Cover_01.prefab
+  artifactKey: Guid(0bf16b78d0f798f4390e353f5336241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Cover_01.prefab using Guid(0bf16b78d0f798f4390e353f5336241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3c54f8c7cbbd7ae03c069b1b7547ee') in 0.014881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Tower_01.prefab
+  artifactKey: Guid(aea3ae06d30574b41af4f0d434cddeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Tower_01.prefab using Guid(aea3ae06d30574b41af4f0d434cddeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec850caee1c7d0f95e8e0faa6e7346') in 0.014696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_03.prefab
+  artifactKey: Guid(58ef710fba0d56d4da66ad6f94fb05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_03.prefab using Guid(58ef710fba0d56d4da66ad6f94fb05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7afe2a30aab2b3e39a9d2c0540cb544') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_02.prefab
+  artifactKey: Guid(536c770d03987fb4bb552eab4239a68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_02.prefab using Guid(536c770d03987fb4bb552eab4239a68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452378a1559a326a0b85285d67342deb') in 0.015043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_02.prefab
+  artifactKey: Guid(f1d7d3bbf5d33974ca827b44de57e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_02.prefab using Guid(f1d7d3bbf5d33974ca827b44de57e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f21f815710c19ef4c4bdb3cce375318') in 0.016316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_02.prefab
+  artifactKey: Guid(0ebb33a8f45457841b175e3e2b155981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_02.prefab using Guid(0ebb33a8f45457841b175e3e2b155981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a876f0901daf72f65bf8e57c23a275') in 0.016937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Steps_01.prefab
+  artifactKey: Guid(9159d4fad9988d344845c029af587271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Steps_01.prefab using Guid(9159d4fad9988d344845c029af587271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cc9c8f586c80b9f238c2b105822adc') in 0.014857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Entrance_01.prefab
+  artifactKey: Guid(17f29d0f7b6123643b270fadef195e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Entrance_01.prefab using Guid(17f29d0f7b6123643b270fadef195e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade081983befc6c39dca701c30fca272') in 0.016562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_02.prefab
+  artifactKey: Guid(67f56b63fca89044a977b545607521ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_02.prefab using Guid(67f56b63fca89044a977b545607521ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e19378fc8341edfdeff353dc3afe4') in 0.016184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_01.prefab
+  artifactKey: Guid(658743290ac77e4438c920e2a7358712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Tent_01.prefab using Guid(658743290ac77e4438c920e2a7358712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf97f56cb1b524b52445693d3415e6c') in 0.015746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_01.prefab
+  artifactKey: Guid(184eb5d939e882c4e981e06dd8f736e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_01.prefab using Guid(184eb5d939e882c4e981e06dd8f736e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5b9a413e8edbafc0ff42a45bc7eb82') in 0.018009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_End_01.prefab
+  artifactKey: Guid(5e56be30793bbf341950e15c0641350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_End_01.prefab using Guid(5e56be30793bbf341950e15c0641350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b954caa837b342554d4fb79f93cb64') in 0.015427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_02.prefab
+  artifactKey: Guid(d5159607c674e704b98e3338ea39247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_02.prefab using Guid(d5159607c674e704b98e3338ea39247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909ddcd513bf2987bee3fe38299dbd5e') in 0.014654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_02.prefab
+  artifactKey: Guid(af6bddf1a524eae4891e18265ec6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Framing_02.prefab using Guid(af6bddf1a524eae4891e18265ec6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c29c6f633671ab0de8455e8231a2d1') in 0.015004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2320.022841 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_01.prefab
+  artifactKey: Guid(535789156d7acfb49b142835472f32b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_01.prefab using Guid(535789156d7acfb49b142835472f32b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c66af3e76f94d9786ff40aa94b2f8d0') in 0.032965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WagonWheel_01.prefab
+  artifactKey: Guid(6a7a7859156da3d48b2e96d98ac87ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WagonWheel_01.prefab using Guid(6a7a7859156da3d48b2e96d98ac87ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717cbf6fafb4a4590f95432bd39efa75') in 0.016994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_04.prefab
+  artifactKey: Guid(4b09cb4f36cd70c4bb2bec9c7b7c269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Stack_04.prefab using Guid(4b09cb4f36cd70c4bb2bec9c7b7c269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18235f8e0f20e426ecb41fc8d64e4dce') in 0.013609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Wagon_Destroyed_01.prefab
+  artifactKey: Guid(0dabedfe925eeea45b0201fe7018d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Wagon_Destroyed_01.prefab using Guid(0dabedfe925eeea45b0201fe7018d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c0f3b997fb2ccfaf4bac5dc59c64a1') in 0.014877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab
+  artifactKey: Guid(f0ec768316b28c241a358b2d69c94c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab using Guid(f0ec768316b28c241a358b2d69c94c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c432045e55a808ea340b981a6671c31d') in 0.015248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_02.prefab
+  artifactKey: Guid(ea6e5e3180ef2e54bbb58971a2a357bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_02.prefab using Guid(ea6e5e3180ef2e54bbb58971a2a357bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac361020cfa9e9ef1289bd384ceef35') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab
+  artifactKey: Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab using Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80c91cb8fd076a8e731d3e9014cd358') in 0.014242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Table_01.prefab
+  artifactKey: Guid(ae278a7f57407384fba5213f40f6d93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Table_01.prefab using Guid(ae278a7f57407384fba5213f40f6d93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482e5e6e66997dce397ae010337df1d') in 0.013510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.708429 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab
+  artifactKey: Guid(90d927add719e9544b4905e0fdf76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab using Guid(90d927add719e9544b4905e0fdf76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883b48bcf4f6ca9adb18b96e5323fe2b') in 0.013577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodPile_02.prefab
+  artifactKey: Guid(5e622173fe08dea4aa4185d6a14f0c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodPile_02.prefab using Guid(5e622173fe08dea4aa4185d6a14f0c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47796380b5c47adf48bf0c4178a305b1') in 0.015475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodPile_01.prefab
+  artifactKey: Guid(5b934faded5c419448c0b31cfd2b4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodPile_01.prefab using Guid(5b934faded5c419448c0b31cfd2b4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030f8e8897e21da14190534978a6d43c') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2671.105690 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_04.prefab
+  artifactKey: Guid(ef5703f857a3aa249b9efd17bd5a7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_04.prefab using Guid(ef5703f857a3aa249b9efd17bd5a7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4eeae2b51c1e5e602151b4555e5f0b') in 0.034055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_01.prefab
+  artifactKey: Guid(f6fb50e760598c84b80b58178f21cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockTall_01.prefab using Guid(f6fb50e760598c84b80b58178f21cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ab835f9733fe7fdfb825774d12403b') in 0.016763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Patch_01.prefab
+  artifactKey: Guid(a3c08bd63f85818458cab1fdbd1da162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Patch_01.prefab using Guid(a3c08bd63f85818458cab1fdbd1da162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0737d5bcfcb6fbe953e05ca56a5c462') in 0.013240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab
+  artifactKey: Guid(0494383efaa5afb40993d7b2076cf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab using Guid(0494383efaa5afb40993d7b2076cf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6520a55111bfa616c77a43c81b604a') in 0.012267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_01.prefab
+  artifactKey: Guid(5d88ec504e6a7c7479182fef48305fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_01.prefab using Guid(5d88ec504e6a7c7479182fef48305fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f39bbc2f624de42a36d3b6700e4cf14') in 0.012873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_01.prefab
+  artifactKey: Guid(cec4459708e506b448d6befe680ff5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_01.prefab using Guid(cec4459708e506b448d6befe680ff5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac171b7260400c8eed2683bc88d166b2') in 0.011533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_03.prefab
+  artifactKey: Guid(3b6c2fd1f7c46a040b4d51b86727c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_03.prefab using Guid(3b6c2fd1f7c46a040b4d51b86727c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6db5d1542610150f131492c1194d17b') in 0.013289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_02.prefab
+  artifactKey: Guid(c4cb2573a82ed654d87dbcfcebb784fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockSmall_02.prefab using Guid(c4cb2573a82ed654d87dbcfcebb784fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9da4cfb98ad089a09e2eb9fe1b212c6') in 0.013809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_04.prefab
+  artifactKey: Guid(8afcdba2550a55b48b618b8c64e07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_RockFlat_04.prefab using Guid(8afcdba2550a55b48b618b8c64e07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a586e8dd06f6deec71f853f1a031d8') in 0.019603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 934.735029 seconds.
+  path: Assets/PolygonWesternFrontier/Materials/Misc/Background Card_01_Material.mat
+  artifactKey: Guid(cb065acf2e30e80429666c58d6bb0b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Materials/Misc/Background Card_01_Material.mat using Guid(cb065acf2e30e80429666c58d6bb0b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60870acea90c68165d0c22804de30d84') in 0.025876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab
+  artifactKey: Guid(3c9ab8d546ebf5e4c8a2bc8f91642a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab using Guid(3c9ab8d546ebf5e4c8a2bc8f91642a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7e6619501301de0f3ad99bfe2d17ea') in 0.010393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_01.prefab
+  artifactKey: Guid(6c4ed3a4489024f4d99e53011a9f24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_01.prefab using Guid(6c4ed3a4489024f4d99e53011a9f24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8e0a9cc4b8e84145cddd6d20ca56f5') in 0.010838 seconds 
