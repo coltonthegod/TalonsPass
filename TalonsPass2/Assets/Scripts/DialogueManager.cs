@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
-
+using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
 
@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueIsPlaying { get; private set; }
 
     private static DialogueManager instance;
-
+    
     private void Awake()
     {
         if (instance != null)
@@ -40,13 +40,23 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
 
-        
+       
+
         choicesText = new TextMeshProUGUI[choices.Length];
         int index = 0;
         foreach (GameObject choice in choices)
         {
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
+        }
+    }
+
+    private void CurrentStory_onMakeChoice(Choice obj)
+    {
+        Debug.Log(obj.text);
+        if (obj.text == "Interrogate")
+        {
+            GetComponent<DialogueTrigger>().Interrogate();
         }
     }
 
@@ -71,6 +81,7 @@ public class DialogueManager : MonoBehaviour
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+        currentStory.onMakeChoice += CurrentStory_onMakeChoice;
 
         ContinueStory();
     }
@@ -138,6 +149,7 @@ public class DialogueManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
+        
         
         InputManager.GetInstance().RegisterSubmitPressed(); 
         ContinueStory();
