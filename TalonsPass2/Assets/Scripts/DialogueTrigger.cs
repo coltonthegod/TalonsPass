@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class DialogueTrigger : MonoBehaviour
 {
     [Header("Visual Cue")]
@@ -11,7 +11,7 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private TextAsset inkJSON;
 
     [SerializeField] private bool playerInRange;
-
+    public string scene;
     private void Awake()
     {
         playerInRange = false;
@@ -49,6 +49,10 @@ public class DialogueTrigger : MonoBehaviour
         {
             playerInRange = false;
         }
+    }
+    public void Interrogate()
+    {
+        SceneManager.LoadScene(scene);
     }
     
 }
