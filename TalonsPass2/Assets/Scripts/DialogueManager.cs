@@ -20,6 +20,9 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueIsPlaying { get; private set; }
 
     private static DialogueManager instance;
+
+    public GameObject[] characters;
+    private GameObject character;
     
     private void Awake()
     {
@@ -56,7 +59,8 @@ public class DialogueManager : MonoBehaviour
         Debug.Log(obj.text);
         if (obj.text == "Interrogate")
         {
-            GetComponent<DialogueTrigger>().Interrogate();
+            character.GetComponent<DialogueTrigger>().Interrogate();
+
         }
     }
 
@@ -76,12 +80,17 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON)
+    public void EnterDialogueMode(TextAsset inkJSON, GameObject characters)
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        character = characters;
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+        
         currentStory.onMakeChoice += CurrentStory_onMakeChoice;
+
 
         ContinueStory();
     }
@@ -93,6 +102,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void ContinueStory()
@@ -135,15 +146,14 @@ public class DialogueManager : MonoBehaviour
             choices[i].gameObject.SetActive(false);
         }
 
-        StartCoroutine(SelectFirstChoice());
+        //SelectFirstChoice();
     }
 
-    private IEnumerator SelectFirstChoice()
-    {
-        EventSystem.current.SetSelectedGameObject(null);
-        yield return new WaitForEndOfFrame();
-        EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
-    }
+    //private void SelectFirstChoice()
+    //{
+        
+        
+    //}
 
     public void MakeChoice(int choiceIndex)
     {
