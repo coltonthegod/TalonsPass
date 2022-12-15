@@ -25,8 +25,8 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.gameObject.SetActive(true);
             if (InputManager.GetInstance().GetInteractPressed() || Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("works");
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                //Debug.Log("works");
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON, gameObject);
             }
         }
         else
@@ -52,6 +52,7 @@ public class DialogueTrigger : MonoBehaviour
     }
     public void Interrogate()
     {
+        Debug.Log("Interrogate");
         SceneManager.LoadScene(scene);
     }
     
